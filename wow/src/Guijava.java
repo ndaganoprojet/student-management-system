@@ -31,7 +31,7 @@ jPanel1.add(lblImage);
     public class DBConnection {
   public static Connection connect() throws Exception {
     Class.forName("net.ucanaccess.jdbc.UcanaccessDriver");
-    String url = "jdbc:ucanaccess://C:\\Users\\PROJET NDAGANO\\Documents//ExhibitionDB.accdb";
+    String url = "jdbc:ucanaccess://database//ExhibitionDB.accdb";
     return DriverManager.getConnection(url);
 }
 }
